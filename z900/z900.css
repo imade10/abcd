@@ -68,3 +68,10 @@ nav .logo{
     width: 1000px;
     height: 600px; ;
 }
+.button {
+    background-color: red;
+    padding: 15px;
+   border-radius: 5px;
+   color: white;
+  }
+  

@@ -12,5 +12,13 @@ $(document).ready(function(){
         
         image.setAttribute("src","../images/z1000green.jfif") 
     })
-    $(document).on('click',)
+    
 })
+let viewerCount = 40; 
+
+function updateViewerCount() {
+  viewerCount++; 
+  document.getElementById('viewer-count').innerHTML = viewerCount; 
+}
+
+setInterval(updateViewerCount, 5000);

@@ -1,6 +1,6 @@
 $(document).ready(function(){
     console.log("tmax")
-    // btn = document.querySelector('#btn')
+    
     black = document.getElementById('black')
     green = document.getElementById('green')
     image = document.getElementById('image')
@@ -12,5 +12,13 @@ $(document).ready(function(){
         
         image.setAttribute("src","../images/z900green.jfif") 
     })
-    $(document).on('click',)
+    
 })
+let viewerCount = 40; 
+
+function updateViewerCount() {
+  viewerCount++; 
+  document.getElementById('viewer-count').innerHTML = viewerCount; 
+}
+
+setInterval(updateViewerCount, 5000);
