@@ -10,7 +10,7 @@ $(document).ready(function(){
     })
     blue.addEventListener('click' , ()=>{
         
-        image.setAttribute("src","../images/BMW S 1000 RR.jpg") 
+        image.setAttribute("src","../images/BMW-S1000-RR.jpg") 
     })
    
 })
